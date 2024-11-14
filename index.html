@@ -8,15 +8,15 @@
 </head>
 <body>
     <div id="game-container">
-        <h1>寻宝游戏</h1>
-        <div id="messages"></div>
-        <div id="animation-container"></div>
+        <img src="image1.jpeg" id="game-title" alt="游戏标题">
         <div id="player-info">
-            <label>玩家昵称：<input type="text" id="player-nickname"></label>
-            <button id="start-game">开始游戏</button>
+            <label>玩家昵称：<input type="text" id="player-nickname" placeholder="请输入昵称"></label>
         </div>
-        <audio id="background-music" src="background.mp3" loop></audio>
-        <div id="full-screen-image"></div>
+        <div id="animation-container">
+            <img id="main-image" src="image2.jpg" alt="游戏初始界面">
+            <button id="game-button" class="start-button">开始游戏</button>
+            <div id="message-display"></div>
+        </div>
     </div>
     <script src="treasure.js"></script>
 </body>
